@@ -1,0 +1,2 @@
+# This command fixes all library conflicts (transformers, opencv, etc.)
+!pip uninstall -y sentence-transformers opencv-python opencv-python-headless && pip install -q transformers==4.40.2 accelerate timm einops Pillow flash_attn fastapi uvicorn python-multipart pyngrok opencv-python-headless numpy
