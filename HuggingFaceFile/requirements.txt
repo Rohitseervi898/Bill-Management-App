@@ -1,0 +1,11 @@
+fastapi
+uvicorn[standard]
+python-multipart
+torch
+transformers==4.40.2
+timm
+einops
+Pillow
+accelerate
+opencv-python-headless
+numpy<2.1,>=1.26.0
